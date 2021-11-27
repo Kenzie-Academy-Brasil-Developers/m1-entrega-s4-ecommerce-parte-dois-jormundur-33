@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weartake</title>
+</head>
+
+<body>
+    <header class="start">
+        <h1>
+            Weartake
+        </h1>
+        <section class="options">
+
+            <p class="all">Todos</p>
+            <p>Acessórios</p>
+            <p>Calçados</p>
+            <p class="last">Camisetas</p>
+
+        </section>
+
+
+    </header>
+
+
+    <main>
+        <aside class="search_and_cart">
+
+            <div class="search">
+
+                <input type="text" placeholder="Digite aqui sua pesquisa">
+                <button id="test">Pesquisar</button>
+
+            </div>
+
+            <section class="cart">
+                <h3 class="cart-panel">
+                    Carrinho de compras
+                </h3>
+                <div id="cartItems">
+
+                    <div class="empty-cart" id="cart-empty">
+                        <h2>
+                            Carrinho vázio
+
+                        </h2>
+                        <small>
+                            Adicionar itens
+                        </small>
+                    </div>
+                    <!-- <div class="containter-items">
+                        <img class="img-container" src="igm/Men-Jacket-Front-Black__15466 1.png" alt="kek">
+
+                        <div class="cart-container">
+                            <h3>Product name</h3>
+                            <h4 class="price">Price</h4>
+                            <small class="remove-item">Remove</small>
+                        </div>
+                    </div>
+                    <div class="containter-items">
+                        <img class="img-container" src="igm/Men-Jacket-Front-Black__15466 1.png" alt="kek">
+
+                        <div class="cart-container">
+                            <h3>Product name</h3>
+                            <h4 class="price">Price</h4>
+                            <small class="remove-item">Remove a</small>
+                        </div>
+                    </div> -->
+
+
+                </div>
+
+                <div class="cartAdd" id="cartAdd">
+                    <p>Quantidade:</p>
+                    <p id="items-quantity"></p>
+                    <p id="total-css">Total:</p>
+                    <p id="price-total"></p>
+
+                </div>
+
+
+            </section>
+        </aside>
+
+        <section class="mainSection">
+            <div class="product productSpace">
+                <figure>
+                    <img src="igm/Men-Jacket-Front-Black__15466 1.png" alt="Jaqueta masculina preta" class="product-img">
+                </figure>
+                <section>
+                    <h4 class="caption">Camisetas</h4>
+                    <h3>
+                        Lightweigth Jacket
+                    </h3>
+                    <h4 class="captionText">
+                        Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...
+
+                    </h4>
+                    <h4 class="captionPrice">
+                        R$ 120.75
+                    </h4>
+                    <small class="add">
+                    Adicionar ao carrinho
+                </small>
+                </section>
+
+
+            </div>
+            <div class="product productSpace ">
+                <figure>
+                    <img src="igm/image 1.png" alt="Gorro preto" class="product-img">
+                </figure>
+                <section>
+                    <h4 class="caption">Acessórios</h4>
+                    <h3>
+                        Black Hat
+                    </h3>
+                    <h4 class="captionText">
+                        O gorro Next.js chegou! Esta beldade bordada tem um ajuste confortável que garante que...
+
+                    </h4>
+                    <h4 class="captionPrice">
+                        R$ 35.99
+                    </h4>
+                    <small class="add">
+                    Adicionar ao carrinho
+                </small>
+                </section>
+
+            </div>
+            <div class="product productSpace">
+                <figure>
+                    <img src="igm/Surgical-Mask-Black__89554 1.png" alt="Máscara preta" class="product-img">
+                </figure>
+                <section>
+                    <h4 class="caption">Acessórios</h4>
+                    <h3>
+                        Mask
+                    </h3>
+                    <h4 class="captionText">
+                        Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...
+                    </h4>
+                    <h4 class="captionPrice">
+                        R$ 15.50
+                    </h4>
+                    <small class="add">
+                    Adicionar ao carrinho
+                </small>
+                </section>
+
+            </div>
+            <div class="product productSpace">
+                <figure>
+                    <img src="igm/Men-TShirt-Black-Front__70046 1.png" alt="Camisa preta" class="product-img">
+                </figure>
+                <section>
+                    <h4 class="caption">Camisetas</h4>
+                    <h3>
+                        T-Shirt
+                    </h3>
+                    <h4 class="captionText">
+                        Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...
+                    </h4>
+                    <h4 class="captionPrice">
+                        R$ 60.78
+                    </h4>
+                    <small class="add">
+                    Adicionar ao carrinho
+                </small>
+                </section>
+
+            </div>
+            <div class="product productSpace">
+                <figure>
+                    <img src="igm/mockup-a0dc2330__62146 1.png" alt="Camisa branca" class="product-img">
+                </figure>
+                <section>
+                    <h4 class="caption">Camisetas</h4>
+                    <h3>
+                        Short-Sleeve T-Shirt
+                    </h3>
+                    <h4 class="captionText">
+                        Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais grosso...
+                    </h4>
+                    <h4 class="captionPrice">
+                        R$ 65.25
+                    </h4>
+                    <small class="add">
+                    Adicionar ao carrinho
+                </small>
+                </section>
+
+            </div>
+
+            <div class="product productSpace">
+                <figure>
+                    <img src="igm/mockup-9b9894f1__67347 1.png" alt="Jaqueta masculina preta" class="product-img">
+                </figure>
+                <section>
+                    <h4 class="caption">Camisetas</h4>
+                    <h3>
+                        Champion Packable Jacket
+
+                    </h3>
+                    <h4 class="captionText">
+                        Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliést...
+
+                    </h4>
+                    <h4 class="captionPrice">
+                        R$ 149.99
+                    </h4>
+                    <small class="add">
+                    Adicionar ao carrinho
+                </small>
+                </section>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
